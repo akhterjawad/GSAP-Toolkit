@@ -12,7 +12,7 @@ gsap.from(".pdiv2 h1", {
         trigger: ".pdiv2 h1", //madlab jis cheez pa animation chalani ha usko point karna
         scroller: "body",
         markers: 'true', // markers sa developer ko asani hoti ha ka animation Execute kb karwana ha
-        start: "top 60%" // markers ko uper nicha karna ka lia
+        start: "top 40%" // markers ko uper nicha karna ka lia
     }
 })
 gsap.from(".pdiv2 h2", {
@@ -22,7 +22,9 @@ gsap.from(".pdiv2 h2", {
     scrollTrigger: {
         trigger: ".pdiv2 h1", 
         scroller: "body",
-        markers: 'true', 
+        markers: 'true',
+        start: "top 40%" // markers ko uper nicha karna ka lia
+
     }
 })
 gsap.from(".pdiv3 .box", {
